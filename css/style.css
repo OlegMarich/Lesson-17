@@ -463,6 +463,7 @@ body {
 		bottom: -15.6%;
 	}
 }
+
 @media (max-width: 767.98px) {
 	.main-block{
 		padding: 280px 0px 40px 0px;
@@ -476,7 +477,7 @@ body {
 		padding: 0px 0px 20px 0px;
 	}
 	.body-main__actions {
-		flex-direction: column;
+		justify-content: space-around;
 		gap: 10px;
 	}
 	.body-main__actions .button {
@@ -487,6 +488,8 @@ body {
 	}
 	.advantegers-main {
 		flex-direction: column;
+		align-items: normal;
+		padding-left: 32px;
 	}
 	.advantegers-main__item {
 		flex-direction: row;
@@ -494,6 +497,7 @@ body {
 	.decor-main__item--3 {
 		bottom: -7.6%;
 	}
+
 }
 /* ============================================================================= */
 .about-block {
