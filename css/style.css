@@ -1010,6 +1010,6 @@ body {
 		gap: 15px;
 	}
 	.card-block__text {
-		padding: 0;
+		padding: 5px;
 	}
 }
