@@ -579,6 +579,12 @@ body {
 	}
 
 }
+@media (max-width: 359.98px) {
+	.body-main__actions {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+}
 
 /* ============================================================================= */
 .about-block {
@@ -597,7 +603,7 @@ body {
 
 .about-block__image {
 	flex: 0 1 57.31%;
-	/* margin-right: 20px; */
+		/* margin-right: 20px; */
 }
 
 .about-block__image img {
@@ -605,7 +611,7 @@ body {
 }
 
 .about-block__text {
-	flex: 0 1 31.7%;
+	flex: 0 1 42.69%;
 }
 
 .about-block__decor {}
@@ -613,7 +619,7 @@ body {
 .text-about {
 	display: flex;
 	flex-direction: column;
-	margin-left: 135px;
+	padding-left: 135px;
 }
 
 .text-about__title {}
@@ -646,7 +652,7 @@ body {
 	width: 16px;
 	height: 16px;
 	margin-left: -32px;
-	padding-right: 32px;
+	padding-left: 32px;
 	transition: transform 0.3s ease 0s;
 }
 
@@ -700,7 +706,7 @@ body {
 @media (max-width: 1258.98px) {
 	.text-about {
 
-		margin-left: 100px;
+		padding-left: 100px;
 	}
 }
 @media (max-width: 1199.98px) {
@@ -715,7 +721,7 @@ body {
 	}
 
 	.text-about {
-		margin-left: 60px;
+		padding-left: 60px;
 		z-index: 10;
 	}
 
@@ -801,11 +807,11 @@ body {
 
 .courses-block__title {
 	padding: 10px 0;
-	flex: 1 1 82%;
+	flex: 0 1 82%;
 }
 
 .courses-block__button {
-	flex: 1 1 18%;
+	flex: 0 1 18%;
 }
 
 .courses-block__card {
@@ -824,6 +830,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
+	justify-content: space-between;
 }
 
 .card-block__body {
@@ -850,6 +857,7 @@ body {
 	flex: 0 1 35.66%;
 	min-width: 214px;
 	min-height: 214px;
+	border-radius: 4px;
 }
 
 .card-block__image img {
@@ -861,7 +869,7 @@ body {
 	flex: 0 1 64.33%;
 	flex-direction: column;
 	gap: 20px;
-	margin: 32px;
+	padding: 32px;
 }
 
 .card-block__specialty {
@@ -933,15 +941,18 @@ body {
 
 @media (max-width: 990.98px) {
 	.courses-block__title {
-		flex: 1 1 70%;
+		flex: 0 1 70%;
 	}
 
 	.courses-block__button {
-		flex: 1 1 30%;
+		flex: 0 1 30%;
 	}
 }
 
 @media (max-width: 767.98px) {
+	.courses-block__container {
+		max-width: 737px;
+	}
 	.courses-block {
 		padding: 60px 0px;
 	}
@@ -951,11 +962,11 @@ body {
 		flex: 0 1 64.33%;
 		flex-direction: column;
 		gap: 10px;
-		margin: 0 0 0 42px;
+		padding: 0 0 0 42px;
 	}
 
 	.courses-block__button {
-		flex: 1 1 54%;
+		flex: 0 1 54%;
 	}
 
 	.title-block__title {
@@ -981,7 +992,7 @@ body {
 
 	.courses-block__button {
 		align-items: center;
-		flex: 1 1 100%;
+		flex: 0 1 100%;
 	}
 
 	.courses-block__title:not(:last-child) {
@@ -997,5 +1008,8 @@ body {
 
 	.card-block__items {
 		gap: 15px;
+	}
+	.card-block__text {
+		padding: 0;
 	}
 }
