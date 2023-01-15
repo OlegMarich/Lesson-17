@@ -856,15 +856,10 @@ body {
 }
 .card-block__image {
 	flex: 0 1 35.66%;
-	min-width: 214px;
-	min-height: 214px;
-
-
 }
 
 .card-block__image img {
 	max-width: 100%;
-
 }
 
 .card-block__text {
